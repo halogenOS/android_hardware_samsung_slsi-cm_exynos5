@@ -22,7 +22,7 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_MODULE := libswconverter
 
-LOCAL_CFLAGS :=
+LOCAL_CFLAGS := -Wno-error -Wno-unused-variable -Wno-unused-parameter -Wno-gnu-designator
 
 LOCAL_ARM_MODE := arm
 

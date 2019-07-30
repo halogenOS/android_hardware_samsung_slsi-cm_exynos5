@@ -48,6 +48,8 @@ LOCAL_SRC_FILES := \
 	libgscaler_obj.cpp \
 	libgscaler.cpp
 
+LOCAL_CFLAGS += -Wno-mismatched-tags -Wno-unused-parameter -Wno-format -Wno-unused-variable -Wno-gnu-designator -Wno-error
+
 LOCAL_MODULE_TAGS := eng
 LOCAL_MODULE := libexynosgscaler
 include $(BUILD_SHARED_LIBRARY)
